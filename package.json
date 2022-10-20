@@ -22,9 +22,11 @@
     "homepage": "https://github.com/LizavetBa/if-js#readme",
     "devDependencies": {
         "eslint": "8.22.0",
+        "husky": "8.0.1",
+        "jest": "^29.2.1",
         "prettier": "2.7.1"
     },
     "dependencies": {
-        "husky": "8.0.1"
+        "save-dev": "^0.0.1-security"
     }
 }
