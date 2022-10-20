@@ -63,7 +63,7 @@ const min = function (a, b) {
 
 console.log(min(a, b));
 
-console.log(Math. min( 21, 12, 23));
+console.log(Math.min(21, 12, 23));
 
 // //task 6.2
 const c = 87;
@@ -91,17 +91,14 @@ console.log(arr.replaceAll('0', 'zero'));
 
 //____________________task 7.1
 
-
-
 //____________________lesson example
 
 function makeWorker() {
-    const name = "Pete";
+    const name = 'Pete';
     return function () {
         return `Hi ${name}`;
     };
 }
-
 
 const sayHi = makeWorker();
 console.log(sayHi());
@@ -115,9 +112,9 @@ console.log(sayHi());
 // //example
 // console.log(0\1);
 
-function getRandom (max, min){
-    return Math.ceil(Math.random() * (max - min + 1) - min)
-};
+function getRandom(max, min) {
+    return Math.ceil(Math.random() * (max - min + 1) - min);
+}
 console.log(getRandom(12, 34));
 //тернарный метод
 const age = '24';
