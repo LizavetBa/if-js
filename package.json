@@ -2,11 +2,11 @@
     "name": "if",
     "version": "1.0.0",
     "description": "",
-    "main": "main.js",
+    "main": "src/script/main.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "prepare": "husky install",
-        "lint": "prettier --write . && eslint main.js",
+        "lint": "prettier --write . && eslint src/script/main.js",
         "scriptname": "cmd"
     },
     "repository": {
