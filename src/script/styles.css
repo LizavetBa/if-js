@@ -1,0 +1,52 @@
+* {
+    background-color: darkkhaki;
+    margin: 0;
+}
+
+.back {
+    background-color: darkolivegreen;
+}
+
+#lorem {
+    padding-top: 35px;
+    font-size: 15px;
+}
+
+.text {
+    color: chocolate;
+}
+
+.red-text {
+    color: cornflowerblue;
+}
+
+.click {
+    display: flex;
+    flex-direction: column-reverse;
+}
+.buttonClick {
+    height: 15px;
+    width: 40px;
+    padding: 20px 30px;
+}
+
+.second-ex {
+    display: flex;
+    justify-content: flex-end;
+}
+#input-text {
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+#text-block {
+    padding-top: 15px;
+}
+.third-ex {
+    display: flex;
+    justify-content: center;
+}
+
+ul {
+    position: relative;
+}

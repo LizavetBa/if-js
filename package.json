@@ -25,6 +25,7 @@
         "prettier": "2.7.1"
     },
     "dependencies": {
-        "husky": "8.0.1"
+        "husky": "8.0.1",
+        "lodash": "^4.17.21"
     }
 }
